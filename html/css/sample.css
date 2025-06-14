@@ -1,0 +1,22 @@
+ /* tag selector  */
+    p{
+        background-color: green;
+    }
+    h1{
+        background-color: yellowgreen;
+        color: white;
+    }
+
+
+    /* class selector */
+    .ft{
+        font-size: 30px;
+    }
+    .para{
+        color: purple;
+    }
+
+    /* id selector  */
+    #nam{
+        background-color: yellow;
+    }
