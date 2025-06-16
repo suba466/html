@@ -1,0 +1,20 @@
+ .mycontainer div{
+            overflow:auto;
+            width:33%;
+            float:left;
+        }
+        .contian div{   
+            width:30%;
+            display:inline-block;
+        }
+
+        .flex {
+            display: flex;
+        }
+        .flex div{
+            width: 33%;
+        }
+
+        .grid-container{
+        display:grid;
+        grid-template-columns:45% 53% 33%;}
