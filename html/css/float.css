@@ -1,0 +1,37 @@
+img{
+    float: right;
+}
+
+div{
+    float: left;
+    padding: 15px;
+}
+.div1{
+    background-color: cyan;
+}
+.div2{
+    background-color:gray;
+}
+.div3{
+    background-color: darksalmon;
+}
+
+.nclr{
+    float: left;
+    padding: 10px;
+    border: 3px solid #73ad21;
+}
+.nclr1{
+    padding: 10px;
+    border: 3px solid red;
+}
+.clr{
+    float: left;
+    padding: 10px;
+    border: 3px solid #73ad21;
+}
+.clr1{
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+}
