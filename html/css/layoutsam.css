@@ -1,44 +1,44 @@
 .section{
     width: 100%;
-    height: 150px;
+    height: 80px;
     border-style: solid;
 }
 
 .center{
     width: 80%;
-    height: 143px;
-    margin: 0 auto;
+    height: 75px;
+    margin: 1px auto;
     border-style: solid;
 }
 
 .left{
-    width: 55%;
-    height: 134px;
+    width: 35%;
+    height: 65px;
     float: left;
     margin: 2px;
     border-style: solid;
 }
 
 .right{
-     width: 39%;
-    height: 134px;
+    width: 59%;
+    height: 65px;
     background-color: orangered;
-    float:right;
+    float:left;
     margin: 2px;
     border-style: solid;
 }
 
 .row{
-    width: 95%;
-    height: 59px;
+    width: 90%;
+    height: 24px;
     margin: 2px auto;
     background-color: lightgreen;
     border-style: solid;
 }
 
 .col{
-    width: 44%;
-    height: 50px;
+    width: 40%;
+    height: 15px;
     margin: 2px ;
     background-color:darkslategray;
     float: left;
@@ -47,20 +47,21 @@
 
 .cent{
     width: 25%;
-    height: 55px;
+    height: 50px;
     margin: 5px auto;
+   
     border-style: solid;
 }
 
 .rect{
-    width: 75%;
+    width: 95%;
     height: 55px;
     margin: 30px auto;
     border-style: solid;
 }
 
 .part1{
-    width: 40%;
+    width: 35%;
     height: 134px;
     float: left;
     margin: 1px 5px auto;
@@ -78,8 +79,26 @@
 
 .part3{
     width: 20%;
-    height: 120px;
+    height: 123px;
     float: left;
     margin: 3px;
     border-style: solid;
+}
+
+.box1{
+    width: 40%;
+    height: 45px;
+    float: left;
+    margin: 8px;
+    border-style: solid;
+    background-color:deeppink;
+}
+
+.box2{
+    width: 30%;
+    height: 45px;
+    float: right;
+    margin: 8px;
+    border-style: solid;
+    background-color: darkcyan;
 }
