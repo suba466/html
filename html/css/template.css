@@ -1,0 +1,33 @@
+.section{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.center{
+    width: 80%;
+    height: 50px;
+    margin: 1px auto;
+    background-color: white;
+    border-style: solid;
+}
+
+.left{
+    width: 40%;
+    height: 38px;
+    float: left;
+    margin: 2px;
+    border-style: solid;
+}
+
+.right{
+    width: 50%;
+    height: 38px;
+    float:right;
+    margin: 2px;
+    border-style: solid;}
+
+.img{
+    height: 35px;
+    padding-left: 25px;
+}
