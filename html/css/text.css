@@ -1,0 +1,33 @@
+
+
+.head{
+    background-color: firebrick;
+    color:deepskyblue
+}
+
+.div{
+     background-color: blue;
+     color: white;
+}
+
+.a{
+    text-align-last: right;
+}
+
+.b{
+    text-align-last: left;
+}
+
+.c{
+    text-align-last: justify;
+}
+
+.exl{
+    direction: rtl;
+    unicode-bidi:bidi-override;
+}
+
+.exl1{
+    direction: ltr;
+    unicode-bidi:bidi-override;
+}

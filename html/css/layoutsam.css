@@ -20,7 +20,7 @@
 }
 
 .right{
-    width: 59%;
+    width: 61%;
     height: 65px;
     background-color: orangered;
     float:left;
@@ -46,10 +46,9 @@
 }
 
 .cent{
-    width: 25%;
+    width: 15%;
     height: 50px;
-    margin: 5px auto;
-   
+    margin-left: 300px;
     border-style: solid;
 }
 
@@ -73,7 +72,8 @@
     width: 30%;
     height: 130px;
     float: left;
-    margin: .9px;
+    margin-top: 2px;
+    margin-left: 25px;
     border-style: solid;
 }
 
@@ -81,7 +81,8 @@
     width: 20%;
     height: 123px;
     float: left;
-    margin: 3px;
+    margin-top: 2px;
+    margin-left: 25px;
     border-style: solid;
 }
 
