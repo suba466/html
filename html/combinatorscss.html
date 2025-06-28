@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/combinators.css">
+</head>
+<body>
+    <h2 style="text-align: center;">Combinators</h2>
+    <h3>Descendant Selector</h3>
+    <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+    <div>
+        <p>Para 1 in the div.</p>
+        <p>Para 2 in the div.</p>
+        <p>Para 3 in the div.</p>
+    </div>
+    <p>Para 4 not in a div.</p>
+    <p>Para 5 not in a div.</p>
+
+    <h3>Child Selector</h3>
+    <p>The child selector (>) selects all elements that are the children of a specified element.</p>
+    <div>
+        <h4>Para 1 in the div.</h4>
+        <h4>Para 2 in the div.</h4>
+        <span>
+             <h4>Para 3 in the div.</h4>
+        </span>
+        <h4>Paragraph 4 in the div.</h4>
+    </div>
+    <h4>Para 5 not in a div.</h4>
+
+    <h3>Adjacent Sibiling Selector</h3>
+    <p>The + selector is used to select an element that is directly after another specific element.</p>
+    <div>
+        <h5>Para 1 in the div.</h5>
+        <h5>Para 2 in the div.</h5>
+    </div>
+    <h5>Para 3 after the div.</h5>
+    <h5>Para 4 after the div.</h5>
+     <div>
+        <h5>Para 5 in the div.</h5>
+        <h5>Para 6 in the div.</h5>
+    </div>
+    <h5>Para 7 after the div.</h5>
+    <h5>Para 8 after the div.</h5>
+
+    <h3>General Sibiling Selector</h3>
+    <p>The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
+    <h1>para 1</h1>
+    <div>
+        <h1>para 2</h1>
+    </div>
+    <h1>para 3</h1>
+    <h1>para 4</h1>
+    <h6>para</h6>
+    <h1>para 4</h1>
+
+    
+
+</body>
+</html>
