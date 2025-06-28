@@ -1,0 +1,15 @@
+div p{
+    background-color:cadetblue;
+}
+
+div > h4{
+    background-color: cornflowerblue;
+}
+
+div + h5{
+    background-color: darkcyan;
+}
+
+div ~ h1{
+     background-color:cadetblue;
+}
