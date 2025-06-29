@@ -1,0 +1,27 @@
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    border: 3px solid ;
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    width: 19%;
+    height: 30px;
+    display: inline;
+    margin-left: 155px;
+    text-align: center;
+    color: white;
+}
+
+li:hover{
+    background-color:blanchedalmond;
+}
+
+
+
