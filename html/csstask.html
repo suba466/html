@@ -46,10 +46,12 @@
                 </button>
             </div>
         </div>
+         
         <div class="top" style="background-color: black; ">
             <ul>
             <li class="dropdown">
                 <a href="#home" class="dropbtn">HTML</a>
+                
                 <div class="dropdown-content">
                     <a href="#" style="color: black;">HTML Introduction</a>
                     <a href="#" style="color: black;">HTML Editors</a>
@@ -144,9 +146,41 @@
                     <a href="#" style="color: black;">JQUERY Basic</a>
                 </div>
             </li>
+             <li class="dropdown">
+                <a href="#" class="dropbtn">EXCEL</a>
+                <div class="dropdown-content">
+                     <a href="#" style="color: black;">EXCEL Introduction</a>
+                    <a href="#" style="color: black;">EXCEL Editors</a>
+                    <a href="#" style="color: black;">EXCEL Basic</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">XML</a>
+                <div class="dropdown-content">
+                     <a href="#" style="color: black;">XML Introduction</a>
+                    <a href="#" style="color: black;">XML Editors</a>
+                    <a href="#" style="color: black;">XML Basic</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">DJANGO</a>
+                <div class="dropdown-content">
+                     <a href="#" style="color: black;">DJANGO Introduction</a>
+                    <a href="#" style="color: black;">DJANGO Editors</a>
+                    <a href="#" style="color: black;">DJANGO Basic</a>
+                </div>
+            </li>
+             <li class="dropdown">
+                <a href="#" class="dropbtn">DSA</a>
+                <div class="dropdown-content">
+                     <a href="#" style="color: black;">DSA Introduction</a>
+                    <a href="#" style="color: black;">DSA Editors</a>
+                    <a href="#" style="color: black;">DSA Basic</a>
+                </div>
+            </li>
             </ul>
-    </div>
-        </div>
+              </div>
+       </div>
 
         <div class="learn">   
             <div class="center">
@@ -155,9 +189,39 @@
                <input type="text" class= "search-box" placeholder="Search our tutorials, e.g. HTML"><button class="search-button"><img src="/images/search-icon-2-614x460.png" class="img1"></button>
             </div>
             <div class="link">
-                <a href="https://www.w3schools.com/where_to_start.asp">
-                    <h4 style="color: white; text-align: center;">Not sure where to begin? </h4></a>
-            </div>
+                <a href="https://www.w3schools.com/where_to_start.asp" class="link1 ">
+                    <h4 class="link1">Not sure where to begin? </h4></a>
         </div>
+        </div>
+        <div class="section1">
+            <h2 style="text-align: center;">Images of courses</h2>
+            <div class="images" id="imgbox1">
+                <h5>HTML</h5><br>
+                <img src="/images/HTML-Blog-Cover.png"  class="images1">
+                <button onclick="removeElement()" class="button">Remove</button>
+            </div>
+            <div class="images" id="imgbox2">
+                <h5>CSS</h5><br>
+                <img src="/images/css.png"  class="images1">
+                <button onclick="changeVisibility()"  class="button">Hide</button>
+            </div>
+            <div class="images" id="imgbox3">
+                <h5>JAVASCRIPT</h5><br>
+                <img src="/images/javapng"  class="images1">
+                <button onclick="resetElement()"  class="button">Reset All</button>
+            </div>
+            <script>
+                function removeElement(){
+                    document.getElementById("imgbox1").style.display="none";
+                }
+                function changeVisibility(){
+                    document.getElementById("imgbox2").style.visibility="hidden";
+                }
+                function resetElement(){
+                    document.getElementById("imgbox1").style.display="block";
+                    document.getElementById("imgbox2").style.visibility="visible";
+                }
+            </script>
+        
 </body>
 </html>
