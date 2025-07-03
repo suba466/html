@@ -1,0 +1,46 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.width{
+    width: 100%;
+}
+.infinite{
+    background-image: url(/images/infinite-loop.jpg);
+    height: 750px;
+   
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    z-index:1;
+}
+
+.sticky scroll{
+    background-color: white;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.left{
+    width: 20%;
+    height: 75%;
+    margin: 5px;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+.right{
+    width: 14%;
+    margin-top: 10px;
+    font-size: 19px;
+    color: white !important;
+}
+
+.left:hover{
+    color: #38B;
+}
+
+.right:hover{
+    background-color: #38B;
+}
