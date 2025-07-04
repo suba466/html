@@ -1,3 +1,7 @@
+::selection{
+    color: orangered;
+}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -15,32 +19,138 @@ body{
     height: 80px;
     z-index:1;
 }
-
-.sticky scroll{
-    background-color: white;
-    border-bottom: 1px solid #e9ecef;
-}
-
-.left{
-    width: 20%;
-    height: 75%;
-    margin: 5px;
-    float: left;
+.center{
     color: white;
     text-align: center;
 }
-
+.left{
+    display: inline-block;
+    width: 20%;
+    height: 75%;
+    margin: 5px;
+    
+}
 .right{
+    display: inline-block;
     width: 14%;
     margin-top: 10px;
-    font-size: 19px;
-    color: white !important;
+    font-size: 19px;  
 }
-
 .left:hover{
     color: #38B;
 }
-
 .right:hover{
     background-color: #38B;
 }
+a{
+    text-decoration: none;
+    color: #38B;
+}
+a:hover{
+    color: orangered;
+}
+.relative{
+    position: relative;
+    width: 50%;
+    height: 250px;
+    left: 350px;
+    top: 100px;
+}
+.absolute{
+    position:absolute;
+    width: 40%;
+    left: 430px;
+    top: 320px;
+    font-size: 24px;
+}
+.wwd{
+    height: 800px;
+}
+.center1{
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.secs{
+    width: 47%;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.img{
+    width: 10%;
+    height: 60px;
+    margin-top: 10px;
+}
+.content{
+    float: right;
+    width: 83%;
+    height: 280px;
+   
+}
+.a{
+    width: 40%;
+    height: 65px;
+    margin-top:40px;
+    color: white;
+    background-color: #38B;
+    text-align: center;
+    font-size: 25px;
+}
+.a:hover{
+    background-color: rgb(4, 111, 177);
+}
+@media screen and (max-width:1100px) {
+    .left{
+        margin-left: 0;
+    }
+    .right{
+       margin-top: 0;
+    }
+    .relative{
+        text-align: center;
+    }
+    .absolute{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:968px){
+    .right{
+        width: 8%;
+        margin-left: 50px;
+    }
+    .relative{
+        text-align: center;
+        left:250px;
+    }
+    .absolute{
+        text-align: center;
+        left:300px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .right{
+        display: none;
+        
+    }
+    .relative{
+        text-align: center;
+        left: 200px;
+    }
+    .absolute{
+        text-align: center;
+        left: 140px;
+        width: 70%;
+    }
+    .content{
+       
+    }
+    .secs{
+        margin-top: 50px;
+    }
+}
+    
