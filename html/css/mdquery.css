@@ -11,24 +11,27 @@ body{
 .infinite{
     background-image: url(/images/infinite-loop.jpg);
     height: 750px;
-   
+    margin-top: -60px;
 }
 .sticky{
     position: sticky;
     top: 0;
     height: 80px;
-    z-index:1;
+    background-color: rgb(57, 56, 56);
+    z-index: 2;
 }
 .center{
     color: white;
     text-align: center;
+}
+.rel{
+    position: relative;
 }
 .left{
     display: inline-block;
     width: 20%;
     height: 75%;
     margin: 5px;
-    
 }
 .right{
     display: inline-block;
@@ -50,7 +53,6 @@ a:hover{
     color: orangered;
 }
 .relative{
-    position: relative;
     width: 50%;
     height: 250px;
     left: 350px;
@@ -88,19 +90,46 @@ a:hover{
     float: right;
     width: 83%;
     height: 280px;
-   
 }
 .a{
     width: 40%;
     height: 65px;
     margin-top:40px;
-    color: white;
     background-color: #38B;
-    text-align: center;
     font-size: 25px;
 }
 .a:hover{
     background-color: rgb(4, 111, 177);
+}
+.testimonials{
+    background-image: url(/images/testimonials.jpg);
+    height: 1000px;
+}
+.testi{
+    width: 80%;
+    height: 300px;
+    left: 130px;
+    top: 100px;
+}
+.con{
+     width: 75%;
+     left: 120px;
+     bottom: 20px;
+}
+.testi1{
+    position: absolute;
+    width: 95%;
+    height: 600px;
+    top: 390px;
+    left: 30px;
+}
+.parts{
+    width: 30%;
+    height: 470px;
+    margin-top: 50px;
+    margin-left: 23px;
+    display: inline-block;
+    font-size: 20px;
 }
 @media screen and (max-width:1100px) {
     .left{
@@ -110,10 +139,17 @@ a:hover{
        margin-top: 0;
     }
     .relative{
+        left: 250px;
         text-align: center;
     }
     .absolute{
+         left: 300px;
         text-align: center;
+    }
+    .a{
+        width: 30%;
+        font-size: 15px;
+        height: 50px;
     }
 }
 
@@ -124,12 +160,13 @@ a:hover{
     }
     .relative{
         text-align: center;
-        left:250px;
+        left:200px;
     }
     .absolute{
         text-align: center;
-        left:300px;
+        left:250px;
     }
+
 }
 
 @media screen and (max-width:768px){
@@ -139,18 +176,80 @@ a:hover{
     }
     .relative{
         text-align: center;
-        left: 200px;
+        left: 80px;
+        width: 80%;
+        font-size: 50px;
     }
     .absolute{
         text-align: center;
-        left: 140px;
+        left: 110px;
+        font-size: 20px;
         width: 70%;
     }
-    .content{
+    .secs{
+        float: none;
+        width: 80%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .img{
+       margin-left: 130px;
        
     }
-    .secs{
-        margin-top: 50px;
+    .content{
+        float: none;
+        margin-left: 100px;
     }
+    .a{
+        height: 40px;
+        margin-top:0px;
+        font-size: 15px;
+        text-align: none;
+        padding-bottom: 10px !important;
+    }
+    .testimonials{
+        margin-top: 680px;
+       height: 1300px;
+    }
+    .parts{
+        display: block;
+        width: 85%;
+        height: 200px;
+        margin-left: 70px;
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
+
+}
+@media screen and (max-width:640px) {
+    .secs{
+        float: none;
+        margin-left: 40px;
+        width: 80%;
+        margin-top: 30px;
+    }
+    .img{
+       margin-left: 120px;
+       margin-top: 50px;
+    }
+    .testimonials{
+      margin-top: 680px;
+       height: 1350px;
+    }
+    .testi{
+        left: 70px;
+    }
+    .con{
+        left: 65px;
+    }
+    .parts{
+        display: block;
+        width: 85%;
+        height: 200px;
+        margin-left: 70px;
+        margin-top: 0px;
+        margin-bottom: 120px;
+    }
+   
 }
     
