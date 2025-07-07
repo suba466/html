@@ -1,0 +1,12 @@
+
+.btn-bg{
+    background-color: green;
+    color: yellow;
+}
+.btn-bg:hover{
+    background-color: yellow;
+    color: black;
+}
+.opacity-50{
+    opacity: 0.9;
+}
