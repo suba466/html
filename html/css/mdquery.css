@@ -1,5 +1,6 @@
 ::selection{
-    color: orangered;
+    background-color: orangered;
+    color: white;
 }
 
 body{
@@ -92,11 +93,11 @@ a:hover{
     height: 280px;
 }
 .a{
-    width: 40%;
-    height: 65px;
+    width: 35%;
+    height: 50px;
     margin-top:40px;
     background-color: #38B;
-    font-size: 25px;
+    font-size: 23px;
 }
 .a:hover{
     background-color: rgb(4, 111, 177);
@@ -219,7 +220,12 @@ a:hover{
         margin-top: 0px;
         margin-bottom: 90px;
     }
-
+    .testi{
+        left: 60px;
+    }
+    .con{
+        left: 90px;
+    }
 }
 @media screen and (max-width:640px) {
     .secs{
@@ -233,7 +239,7 @@ a:hover{
        margin-top: 50px;
     }
     .testimonials{
-      margin-top: 680px;
+      margin-top: 870px;
        height: 1350px;
     }
     .testi{

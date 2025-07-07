@@ -1,0 +1,62 @@
+.container-fluid{
+    background-color: red;
+    height:150px;
+    border: 2px solid black;
+}
+.container-sm{
+    background-color: grey;
+    height: 147px;
+    border: 2px solid black;
+}
+.col{
+    border: 2px solid ;
+    margin: 2px ;
+    height: 140px;
+    background-color: purple;
+}
+.col-12{
+    border: 2px solid;
+    height: 60px;
+    margin-top: 5px;
+    background-color: rgb(106, 209, 3);
+}
+.col-6{
+    border: 2px solid;
+    height: 50px;
+    margin: 2px;
+    margin-left: 5px;
+    float: left;
+    background-color:rgb(241, 215, 183);
+}
+.col-5{
+    border: 2px solid;
+    height: 50px;
+    margin: 2px;
+    margin-left: 5px;
+    float: left;
+    background-color:rgb(241, 215, 183);
+}
+.col-4{
+    border: 2px solid;
+    height: 50px;
+    margin: 50PX 0 0 100px;
+    background-color:aqua;
+}
+.container-fluid1{
+   height: 250px;
+   border: 2px solid;
+   background-color: rgb(219, 178, 219);
+}
+.col1{
+    border: 2px solid ;
+    width: 55%;;
+    margin: 2px ;
+    height: 234px;
+    background-color:rgb(124, 44, 44);
+}
+.col-sm-4{
+    border: 2px solid;
+    margin: 40px;
+    height: 80px;
+    margin-left: 100px;
+}
