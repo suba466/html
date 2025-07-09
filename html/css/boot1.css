@@ -1,6 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #38B;
+}
+a:hover{
+    color: rgb(31, 82, 115);
+}
 .container-fluid2{
     background-image: url(/images/the-town-bg-01.jpg);
     height:800px; 
@@ -60,5 +67,35 @@ body {
 }
 .container-breakpoints{
     height: 500px;
+}
+.col-sm{
+    height: 450px;
+    margin-top: 30px;
+    text-align: left;
+    color: rgb(77, 74, 74);
+    
+}
+.img-fluid{
+    margin-top: 50px;
+}
+.btn-outline-success{
+    --bs-btn-color: white;
+    background-color: #38B;
+    --bs-btn-hover-bg:rgb(31, 93, 131);
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.card-img-top{
+    width: 30%;
+    margin-left: 150px;
+}
+.card{
+    border: none;
+    width: 21em;
 }
 
