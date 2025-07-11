@@ -10,15 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid1">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid2">
+        <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
     <div class="container-fluid" style="height: 80px; ">
         <a class="navbar-brand" href="#">The Town</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbarNav" >
+        <ul class="navbar-nav me-auto ">
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Introduction</a>
             </li>
@@ -32,8 +32,17 @@
         </div>
     </div>
     </nav>
-    </div>
-    <div class="container-fluid2"><br><br><br><br><br><br><br><br>
+    <script>
+  const navbar = document.querySelector('.navbar');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+</script>
+<br><br><br><br><br><br><br><br>
         <div class="container-sm">
             <h1 style="font-size: 70px;">The Town</h1>
             <p style="font-size: 20px;">Parallax Bootstrap Theme <br>
@@ -43,7 +52,8 @@
             </i>
         </div>
     </div>
-    <div class="container-breakpoints">
+
+   <div class="container-breakpoints">
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm" >
@@ -62,6 +72,8 @@
             </div>
         </div>
     </div>
+<div class="my-5"></div>
+
    <div class="container-sm" style="margin-top: 50px;">
     <div class="container text-center">
   <div class="row">
@@ -95,105 +107,93 @@
   </div>
 </div>
    </div>
-   <div class="container-sm" style="margin-top: 50px; height:600px">
+   <div class="container-sm my-5">
     <div class="container">
         <h1 style="text-align: center;color:#38B">Our Work</h1>
         <div class="container">
             <p style="color: rgb(59, 56, 56); font-size:20px">"Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia." </p>
         </div>
         </div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-     <div class="container text-center">
-        <div class="row">
-            <div class="col">
-            <img src="/images/gallery-img-01.jpg" style="height:400px;width:60%">
+        <div id="carouselExampleDark" class="carousel slide"  data-bs-ride="carousel">
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="container text-center">
+                <div class="row justify-content-center">
+                  <div class="col-6 col-md-3"><img src="/images/gallery-img-01.jpg" class="img-fluid"></div>
+                  <div class="col-6 col-md-3"><img src="/images/gallery-img-02.jpg" class="img-fluid"></div>
+                  <div class="col-6 col-md-3"><img src="/images/gallery-img-03.jpg" class="img-fluid"></div>
+                   <div class="col-6 col-md-3"><img src="/images/gallery-img-04.jpg" class="img-fluid" ></div>
+                </div>
+              </div>
             </div>
-            <div class="col">
-           <img src="/images/gallery-img-02.jpg" style="height:400px;width:60%">
-            </div>
-        </div>
-</div>
-      <div class="carousel-caption d-none d-md-block">
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item">
        <div class="container text-center">
-        <div class="row">
-            <div class="col">
-            <img src="/images/gallery-img-03.jpg" style="height:400px;width:60%">
-            </div>
-            <div class="col">
-           <img src="/images/gallery-img-04.jpg" style="height:400px;width:60%">
-            </div>
+        <div class="row justify-content-center">
+             <div class="col-6 col-md-3"><img src="/images/gallery-img-03.jpg" class="img-fluid"></div>
+             <div class="col-6 col-md-3"><img src="/images/gallery-img-04.jpg" class="img-fluid" ></div>
+             <div class="col-6 col-md-3"><img src="/images/gallery-img-05.jpg" class="img-fluid"></div>
+             <div class="col-6 col-md-3"><img src="/images/gallery-img-06.jpg" class="img-fluid"></div>
         </div>
-</div>
-      <div class="carousel-caption d-none d-md-block">
-       
-      </div>
+       </div>
     </div>
     <div class="carousel-item">
-     <div class="container text-center">
-        <div class="row">
-            <div class="col">
-            <img src="/images/gallery-img-05.jpg" style="height: 400px; width:60%">
-            </div>
-            <div class="col">
-           <img src="/images/gallery-img-06.jpg" style="height:400px;width:60%">
-            </div>
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-6 col-md-3"><img src="/images/gallery-img-05.jpg" class="img-fluid"></div>
+          <div class="col-6 col-md-3"><img src="/images/gallery-img-06.jpg" class="img-fluid"></div>
+          <div class="col-6 col-md-3"><img src="/images/gallery-img-01.jpg" class="img-fluid"></div>
+          <div class="col-6 col-md-3"><img src="/images/gallery-img-02.jpg" class="img-fluid" ></div>
         </div>
-</div>
-      <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-target="#customCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" ></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-   </div>
-<div class="container-fluid2" style="background-image: url(/images/the-town-bg-02.jpg);position:relative">
-    <div class="container-sm" style="position:absolute;top:70px;left:150px">
-        <h1 style="color: white;text-align:left;border-bottom:5px solid white">Contact Us</h1><br><br>
-        <p style="color: white;text-align:left;font-size:20px">Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui, non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque at at velit. </p><br>
+</div>
+   
+<div class="container-fluid2" style="background-image: url(/images/the-town-bg-02.jpg); background-size: cover; background-position: center;">
+    <div class="container  py-5 text-white">
+        <h1 style="text-align:left; border-bottom:5px solid white">Contact Us</h1><br><br>
+        <p style="text-align:left; font-size:20px;">Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui, non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque at at velit. </p><br>
     <div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <img src="/images/phone1.png" style="margin-right: 30px;">
+  <div class="row text-center gy-4">
+    <div class="col-md-4">
+      <img src="/images/phone1.png" style="margin-right: 10px;">
       <span style="font-size: 20px;">010-020-0340</span>
     </div>
-    <div class="col" >
+    <div class="col-md-4" >
       <img src="/images/mail.png" >
       <span style="font-size: 20px;">info@company.com</span>
     </div>
-  </div>
-  <div class="row">
-    <div class="col" >
+    <div class="col-md-4" >
       <img src="/images/loc.png" >
       <span style="font-size: 20px;">Location on Maps</span>
     </div>
-    <div class="col"  >
-      <div class="input-group mb-3" style="margin-top:10px">
-      <input type="text" class="form-control" placeholder="Subscribe your E-mail" aria-label="Recipient’s username" aria-describedby="button-addon2">
-      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
+  </div>
+  <div class="row tjustify-content-center">
+    <div class="col-md-8">
+      <div class="d-flex">
+        <input type="text"class="form-control" placeholder="Subscribe your E-mail" aria-label="Email">
+        <button class="btn btn-outline-light" type="button">Submit</button>
       </div>
+    </div>
     </div>
   </div>
 </div>
-    </div>
+   
 </div>
 
 </div>
+
+    
 </body>
 </html>
