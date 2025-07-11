@@ -1,0 +1,55 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*
+
+ body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+}
+.navbar.scrolled {
+    background-color: white !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar.scrolled .nav-link {
+      color: black !important;
+}
+.navbar .nav-link {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+.container-fluid{
+    height:800px; /* Just to make scrolling happen */
+    background: url(/images/the-town-bg-01.jpg);
+    background-size: cover;
+  
+}
+
+
