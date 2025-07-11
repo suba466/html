@@ -1,0 +1,23 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.align-text-top{
+    vertical-align: middle !important;
+}
+.nav-item{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.nav-item:hover{
+   color: white;
+   background-color: rgb(233,28,69);
+}
+.carousel-caption{
+    font-size: 20px;
+    padding-bottom: 14.5rem;
+}
