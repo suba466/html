@@ -1,6 +1,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+p{
+    color: black;
+}
 .navbar-collapse{
     flex-grow: 0;
 }
@@ -21,3 +24,131 @@ body {
     font-size: 20px;
     padding-bottom: 14.5rem;
 }
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.card-img-top{
+    width: 70%;
+    height: 145px;
+    margin-left: 40px;
+}
+.card{
+    --bs-card-border-width:0
+}
+.col-6{
+    width: 75%;
+    padding: 25px;
+}
+.event-item {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 100%;}
+.event-item:hover {
+    transform: translateY(-5px);
+}
+.event-icon-top {
+      padding: 30px 0 10px;
+      text-align: center;}
+.event-icon-top i {
+    color: #ff6f61;
+    font-size: 48px;
+}
+.event-text-bottom {
+    padding: 0 1rem 1rem;
+    text-align: center;
+    height: auto;
+}
+.event-text-bottom h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+.event-text-bottom p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+    position: relative;
+    max-height: 3em; /* shows approx 2 lines */
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+.event-item:hover p {
+    max-height: 200px; /* show full content on hover */
+}
+.event-text-bottom p::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1em;
+    background: linear-gradient(to top, white, transparent);
+}
+.event-item:hover p::after {
+    display: none;
+}
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: #dee2e6;
+    transform: translateX(-50%);
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.timeline-item .timeline-content {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 0.5rem;
+    position: relative;
+    width: 45%;
+}
+
+.timeline-item.left .timeline-content {
+    margin-left: auto;
+    text-align: left;
+}
+.timeline-item.right .timeline-content {
+    margin-right: auto;
+    text-align: right;
+}
+.timeline-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #ec4848;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    z-index: 1;}
+.timeline-btn{
+    margin-left:auto;
+    text-align: left;
+    padding: 1rem;
+    position: relative;
+    width: 45%;
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+    height: 42px;
+}
+
